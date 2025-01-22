@@ -1,0 +1,24 @@
+[35m[1mConsolidate compiler generated dependencies of target calculator_core[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/calculator_core.dir/src/calculator_node.cpp.o[0m
+[01m[K/home/kaio/summer_school_ws/src/calculator/src/calculator_node.cpp:[m[K In member function ‘[01m[Kvoid calculator::calculator_node::tmrPubCalculatorResult()[m[K’:
+[01m[K/home/kaio/summer_school_ws/src/calculator/src/calculator_node.cpp:147:47:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Krclcpp_lifecycle::LifecyclePublisher<std_msgs::msg::Float64_<std::allocator<void> > >::publish(std_msgs::msg::Float64_<std::allocator<void> >::_data_type&)[m[K’
+  147 |   pub_calculator_result_->publish(result_.data[01;31m[K)[m[K;
+      |                                               [01;31m[K^[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp_lifecycle/rclcpp_lifecycle/lifecycle_node.hpp:87[m[K,
+                 from [01m[K/home/kaio/summer_school_ws/src/calculator/include/calculator/calculator_node.hpp:8[m[K,
+                 from [01m[K/home/kaio/summer_school_ws/src/calculator/src/calculator_node.cpp:1[m[K:
+[01m[K/opt/ros/humble/include/rclcpp_lifecycle/rclcpp_lifecycle/lifecycle_publisher.hpp:66:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid rclcpp_lifecycle::LifecyclePublisher<MessageT, Alloc>::publish(std::unique_ptr<RosMessageT, typename std::conditional<std::is_same<typename std::allocator_traits<typename std::allocator_traits<_Alloc>::rebind_traits<MessageT>::allocator_type>::rebind_alloc<MessageT>, std::allocator<_Tp1> >::value, std::default_delete<_Tp>, rclcpp::allocator::AllocatorDeleter<typename std::allocator_traits<_Alloc>::rebind_traits<MessageT>::allocator_type> >::type>) [with MessageT = std_msgs::msg::Float64_<std::allocator<void> >; Alloc = std::allocator<void>; typename std::conditional<std::is_same<typename std::allocator_traits<typename std::allocator_traits<_Alloc>::rebind_traits<MessageT>::allocator_type>::rebind_alloc<MessageT>, std::allocator<_Tp1> >::value, std::default_delete<_Tp>, rclcpp::allocator::AllocatorDeleter<typename std::allocator_traits<_Alloc>::rebind_traits<MessageT>::allocator_type> >::type = std::default_delete<std_msgs::msg::Float64_<std::allocator<void> > >][m[K’
+   66 |   [01;36m[Kpublish[m[K(std::unique_ptr<MessageT, MessageDeleter> msg)
+      |   [01;36m[K^~~~~~~[m[K
+[01m[K/opt/ros/humble/include/rclcpp_lifecycle/rclcpp_lifecycle/lifecycle_publisher.hpp:66:53:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd_msgs::msg::Float64_<std::allocator<void> >::_data_type[m[K’ {aka ‘[01m[Kdouble[m[K’} to ‘[01m[Kstd::unique_ptr<std_msgs::msg::Float64_<std::allocator<void> >, std::default_delete<std_msgs::msg::Float64_<std::allocator<void> > > >[m[K’
+   66 |   publish([01;36m[Kstd::unique_ptr<MessageT, MessageDeleter> msg[m[K)
+      |           [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[01m[K/opt/ros/humble/include/rclcpp_lifecycle/rclcpp_lifecycle/lifecycle_publisher.hpp:82:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid rclcpp_lifecycle::LifecyclePublisher<MessageT, Alloc>::publish(const MessageT&) [with MessageT = std_msgs::msg::Float64_<std::allocator<void> >; Alloc = std::allocator<void>][m[K’
+   82 |   [01;36m[Kpublish[m[K(const MessageT & msg)
+      |   [01;36m[K^~~~~~~[m[K
+[01m[K/opt/ros/humble/include/rclcpp_lifecycle/rclcpp_lifecycle/lifecycle_publisher.hpp:82:28:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd_msgs::msg::Float64_<std::allocator<void> >::_data_type[m[K’ {aka ‘[01m[Kdouble[m[K’} to ‘[01m[Kconst std_msgs::msg::Float64_<std::allocator<void> >&[m[K’
+   82 |   publish([01;36m[Kconst MessageT & msg[m[K)
+      |           [01;36m[K~~~~~~~~~~~~~~~~~^~~[m[K
+gmake[2]: *** [CMakeFiles/calculator_core.dir/build.make:76: CMakeFiles/calculator_core.dir/src/calculator_node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/calculator_core.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

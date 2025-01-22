@@ -1,0 +1,17 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from custon_msg_srv/srv/Setop.srv
+// generated code does not contain a copyright notice
+
+
+module custon_msg_srv {
+  module srv {
+    struct Setop_Request {
+      string op;
+    };
+    struct Setop_Response {
+      boolean success;
+
+      string message;
+    };
+  };
+};

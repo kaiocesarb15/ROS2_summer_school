@@ -1,0 +1,36 @@
+[35m[1mConsolidate compiler generated dependencies of target calculator_core[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/calculator_core.dir/src/calculator_node.cpp.o[0m
+[ 50%] [32m[1mLinking CXX shared library libcalculator_core.so[0m
+[ 50%] Built target calculator_core
+[ 75%] [32m[1mLinking CXX executable calculator_node[0m
+[100%] Built target calculator_node
+-- Install configuration: ""
+-- Installing: /home/kaio/summer_school_ws/install/calculator/lib/libcalculator_core.so
+-- Set runtime path of "/home/kaio/summer_school_ws/install/calculator/lib/libcalculator_core.so" to ""
+-- Installing: /home/kaio/summer_school_ws/install/calculator/lib/calculator/calculator_node
+-- Set runtime path of "/home/kaio/summer_school_ws/install/calculator/lib/calculator/calculator_node" to ""
+-- Up-to-date: /home/kaio/summer_school_ws/install/calculator/include/
+-- Up-to-date: /home/kaio/summer_school_ws/install/calculator/include//calculator
+-- Up-to-date: /home/kaio/summer_school_ws/install/calculator/include//calculator/calculator_node.hpp
+-- Up-to-date: /home/kaio/summer_school_ws/install/calculator/share/calculator/launch
+-- Up-to-date: /home/kaio/summer_school_ws/install/calculator/share/calculator/launch/calculator_launch.py
+-- Up-to-date: /home/kaio/summer_school_ws/install/calculator/share/calculator/param
+-- Up-to-date: /home/kaio/summer_school_ws/install/calculator/share/calculator/param/constants.yaml
+-- Up-to-date: /home/kaio/summer_school_ws/install/calculator/share/ament_index/resource_index/package_run_dependencies/calculator
+-- Up-to-date: /home/kaio/summer_school_ws/install/calculator/share/ament_index/resource_index/parent_prefix_path/calculator
+-- Up-to-date: /home/kaio/summer_school_ws/install/calculator/share/calculator/environment/ament_prefix_path.sh
+-- Up-to-date: /home/kaio/summer_school_ws/install/calculator/share/calculator/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/kaio/summer_school_ws/install/calculator/share/calculator/environment/path.sh
+-- Up-to-date: /home/kaio/summer_school_ws/install/calculator/share/calculator/environment/path.dsv
+-- Up-to-date: /home/kaio/summer_school_ws/install/calculator/share/calculator/local_setup.bash
+-- Up-to-date: /home/kaio/summer_school_ws/install/calculator/share/calculator/local_setup.sh
+-- Up-to-date: /home/kaio/summer_school_ws/install/calculator/share/calculator/local_setup.zsh
+-- Up-to-date: /home/kaio/summer_school_ws/install/calculator/share/calculator/local_setup.dsv
+-- Installing: /home/kaio/summer_school_ws/install/calculator/share/calculator/package.dsv
+-- Up-to-date: /home/kaio/summer_school_ws/install/calculator/share/ament_index/resource_index/packages/calculator
+-- Up-to-date: /home/kaio/summer_school_ws/install/calculator/share/ament_index/resource_index/rclcpp_components/calculator
+-- Up-to-date: /home/kaio/summer_school_ws/install/calculator/share/calculator/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Up-to-date: /home/kaio/summer_school_ws/install/calculator/share/calculator/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Up-to-date: /home/kaio/summer_school_ws/install/calculator/share/calculator/cmake/calculatorConfig.cmake
+-- Up-to-date: /home/kaio/summer_school_ws/install/calculator/share/calculator/cmake/calculatorConfig-version.cmake
+-- Up-to-date: /home/kaio/summer_school_ws/install/calculator/share/calculator/package.xml
