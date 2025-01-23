@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/kaio/summer_school_ws/src/custon_msg_srv
+CMAKE_SOURCE_DIR = /home/kaio/github/ROS2_summer_school/summer_school_ws/src/custom_msg_srv
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/kaio/summer_school_ws/build/custon_msg_srv
+CMAKE_BINARY_DIR = /home/kaio/github/ROS2_summer_school/summer_school_ws/build/custon_msg_srv
 
 # Utility rule file for custon_msg_srv.
 
@@ -66,8 +66,8 @@ include CMakeFiles/custon_msg_srv.dir/compiler_depend.make
 # Include the progress variables for this target.
 include CMakeFiles/custon_msg_srv.dir/progress.make
 
-CMakeFiles/custon_msg_srv: /home/kaio/summer_school_ws/src/custon_msg_srv/msg/TwoFloat64.msg
-CMakeFiles/custon_msg_srv: /home/kaio/summer_school_ws/src/custon_msg_srv/srv/Setop.srv
+CMakeFiles/custon_msg_srv: /home/kaio/github/ROS2_summer_school/summer_school_ws/src/custom_msg_srv/msg/TwoFloat64.msg
+CMakeFiles/custon_msg_srv: /home/kaio/github/ROS2_summer_school/summer_school_ws/src/custom_msg_srv/srv/Setop.srv
 CMakeFiles/custon_msg_srv: rosidl_cmake/srv/Setop_Request.msg
 CMakeFiles/custon_msg_srv: rosidl_cmake/srv/Setop_Response.msg
 
@@ -84,6 +84,6 @@ CMakeFiles/custon_msg_srv.dir/clean:
 .PHONY : CMakeFiles/custon_msg_srv.dir/clean
 
 CMakeFiles/custon_msg_srv.dir/depend:
-	cd /home/kaio/summer_school_ws/build/custon_msg_srv && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/kaio/summer_school_ws/src/custon_msg_srv /home/kaio/summer_school_ws/src/custon_msg_srv /home/kaio/summer_school_ws/build/custon_msg_srv /home/kaio/summer_school_ws/build/custon_msg_srv /home/kaio/summer_school_ws/build/custon_msg_srv/CMakeFiles/custon_msg_srv.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/kaio/github/ROS2_summer_school/summer_school_ws/build/custon_msg_srv && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/kaio/github/ROS2_summer_school/summer_school_ws/src/custom_msg_srv /home/kaio/github/ROS2_summer_school/summer_school_ws/src/custom_msg_srv /home/kaio/github/ROS2_summer_school/summer_school_ws/build/custon_msg_srv /home/kaio/github/ROS2_summer_school/summer_school_ws/build/custon_msg_srv /home/kaio/github/ROS2_summer_school/summer_school_ws/build/custon_msg_srv/CMakeFiles/custon_msg_srv.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/custon_msg_srv.dir/depend
 

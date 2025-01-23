@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/kaio/summer_school_ws/src/calculator
+CMAKE_SOURCE_DIR = /home/kaio/github/ROS2_summer_school/summer_school_ws/src/calculator
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/kaio/summer_school_ws/build/calculator
+CMAKE_BINARY_DIR = /home/kaio/github/ROS2_summer_school/summer_school_ws/build/calculator
 
 # Include any dependencies generated for this target.
 include CMakeFiles/calculator_core.dir/depend.make
@@ -70,18 +70,18 @@ include CMakeFiles/calculator_core.dir/progress.make
 include CMakeFiles/calculator_core.dir/flags.make
 
 CMakeFiles/calculator_core.dir/src/calculator_node.cpp.o: CMakeFiles/calculator_core.dir/flags.make
-CMakeFiles/calculator_core.dir/src/calculator_node.cpp.o: /home/kaio/summer_school_ws/src/calculator/src/calculator_node.cpp
+CMakeFiles/calculator_core.dir/src/calculator_node.cpp.o: /home/kaio/github/ROS2_summer_school/summer_school_ws/src/calculator/src/calculator_node.cpp
 CMakeFiles/calculator_core.dir/src/calculator_node.cpp.o: CMakeFiles/calculator_core.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kaio/summer_school_ws/build/calculator/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/calculator_core.dir/src/calculator_node.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/calculator_core.dir/src/calculator_node.cpp.o -MF CMakeFiles/calculator_core.dir/src/calculator_node.cpp.o.d -o CMakeFiles/calculator_core.dir/src/calculator_node.cpp.o -c /home/kaio/summer_school_ws/src/calculator/src/calculator_node.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kaio/github/ROS2_summer_school/summer_school_ws/build/calculator/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/calculator_core.dir/src/calculator_node.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/calculator_core.dir/src/calculator_node.cpp.o -MF CMakeFiles/calculator_core.dir/src/calculator_node.cpp.o.d -o CMakeFiles/calculator_core.dir/src/calculator_node.cpp.o -c /home/kaio/github/ROS2_summer_school/summer_school_ws/src/calculator/src/calculator_node.cpp
 
 CMakeFiles/calculator_core.dir/src/calculator_node.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/calculator_core.dir/src/calculator_node.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kaio/summer_school_ws/src/calculator/src/calculator_node.cpp > CMakeFiles/calculator_core.dir/src/calculator_node.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kaio/github/ROS2_summer_school/summer_school_ws/src/calculator/src/calculator_node.cpp > CMakeFiles/calculator_core.dir/src/calculator_node.cpp.i
 
 CMakeFiles/calculator_core.dir/src/calculator_node.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/calculator_core.dir/src/calculator_node.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kaio/summer_school_ws/src/calculator/src/calculator_node.cpp -o CMakeFiles/calculator_core.dir/src/calculator_node.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kaio/github/ROS2_summer_school/summer_school_ws/src/calculator/src/calculator_node.cpp -o CMakeFiles/calculator_core.dir/src/calculator_node.cpp.s
 
 # Object files for target calculator_core
 calculator_core_OBJECTS = \
@@ -106,12 +106,12 @@ libcalculator_core.so: /opt/ros/humble/lib/libstd_srvs__rosidl_typesupport_fastr
 libcalculator_core.so: /opt/ros/humble/lib/libstd_srvs__rosidl_typesupport_introspection_cpp.so
 libcalculator_core.so: /opt/ros/humble/lib/libstd_srvs__rosidl_typesupport_cpp.so
 libcalculator_core.so: /opt/ros/humble/lib/libstd_srvs__rosidl_generator_py.so
-libcalculator_core.so: /home/kaio/summer_school_ws/install/custon_msg_srv/lib/libcuston_msg_srv__rosidl_typesupport_fastrtps_c.so
-libcalculator_core.so: /home/kaio/summer_school_ws/install/custon_msg_srv/lib/libcuston_msg_srv__rosidl_typesupport_introspection_c.so
-libcalculator_core.so: /home/kaio/summer_school_ws/install/custon_msg_srv/lib/libcuston_msg_srv__rosidl_typesupport_fastrtps_cpp.so
-libcalculator_core.so: /home/kaio/summer_school_ws/install/custon_msg_srv/lib/libcuston_msg_srv__rosidl_typesupport_introspection_cpp.so
-libcalculator_core.so: /home/kaio/summer_school_ws/install/custon_msg_srv/lib/libcuston_msg_srv__rosidl_typesupport_cpp.so
-libcalculator_core.so: /home/kaio/summer_school_ws/install/custon_msg_srv/lib/libcuston_msg_srv__rosidl_generator_py.so
+libcalculator_core.so: /home/kaio/github/ROS2_summer_school/summer_school_ws/install/custon_msg_srv/lib/libcuston_msg_srv__rosidl_typesupport_fastrtps_c.so
+libcalculator_core.so: /home/kaio/github/ROS2_summer_school/summer_school_ws/install/custon_msg_srv/lib/libcuston_msg_srv__rosidl_typesupport_introspection_c.so
+libcalculator_core.so: /home/kaio/github/ROS2_summer_school/summer_school_ws/install/custon_msg_srv/lib/libcuston_msg_srv__rosidl_typesupport_fastrtps_cpp.so
+libcalculator_core.so: /home/kaio/github/ROS2_summer_school/summer_school_ws/install/custon_msg_srv/lib/libcuston_msg_srv__rosidl_typesupport_introspection_cpp.so
+libcalculator_core.so: /home/kaio/github/ROS2_summer_school/summer_school_ws/install/custon_msg_srv/lib/libcuston_msg_srv__rosidl_typesupport_cpp.so
+libcalculator_core.so: /home/kaio/github/ROS2_summer_school/summer_school_ws/install/custon_msg_srv/lib/libcuston_msg_srv__rosidl_generator_py.so
 libcalculator_core.so: /opt/ros/humble/lib/librcl_lifecycle.so
 libcalculator_core.so: /opt/ros/humble/lib/liblifecycle_msgs__rosidl_typesupport_fastrtps_c.so
 libcalculator_core.so: /opt/ros/humble/lib/liblifecycle_msgs__rosidl_typesupport_introspection_c.so
@@ -184,15 +184,15 @@ libcalculator_core.so: /opt/ros/humble/lib/librmw.so
 libcalculator_core.so: /opt/ros/humble/lib/librosidl_typesupport_introspection_cpp.so
 libcalculator_core.so: /opt/ros/humble/lib/librosidl_typesupport_introspection_c.so
 libcalculator_core.so: /opt/ros/humble/lib/librosidl_typesupport_cpp.so
-libcalculator_core.so: /home/kaio/summer_school_ws/install/custon_msg_srv/lib/libcuston_msg_srv__rosidl_typesupport_c.so
-libcalculator_core.so: /home/kaio/summer_school_ws/install/custon_msg_srv/lib/libcuston_msg_srv__rosidl_generator_c.so
+libcalculator_core.so: /home/kaio/github/ROS2_summer_school/summer_school_ws/install/custon_msg_srv/lib/libcuston_msg_srv__rosidl_typesupport_c.so
+libcalculator_core.so: /home/kaio/github/ROS2_summer_school/summer_school_ws/install/custon_msg_srv/lib/libcuston_msg_srv__rosidl_generator_c.so
 libcalculator_core.so: /opt/ros/humble/lib/librosidl_typesupport_c.so
 libcalculator_core.so: /opt/ros/humble/lib/librcpputils.so
 libcalculator_core.so: /opt/ros/humble/lib/librosidl_runtime_c.so
 libcalculator_core.so: /opt/ros/humble/lib/librcutils.so
 libcalculator_core.so: /usr/lib/x86_64-linux-gnu/libpython3.10.so
 libcalculator_core.so: CMakeFiles/calculator_core.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/kaio/summer_school_ws/build/calculator/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX shared library libcalculator_core.so"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/kaio/github/ROS2_summer_school/summer_school_ws/build/calculator/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX shared library libcalculator_core.so"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/calculator_core.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -204,6 +204,6 @@ CMakeFiles/calculator_core.dir/clean:
 .PHONY : CMakeFiles/calculator_core.dir/clean
 
 CMakeFiles/calculator_core.dir/depend:
-	cd /home/kaio/summer_school_ws/build/calculator && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/kaio/summer_school_ws/src/calculator /home/kaio/summer_school_ws/src/calculator /home/kaio/summer_school_ws/build/calculator /home/kaio/summer_school_ws/build/calculator /home/kaio/summer_school_ws/build/calculator/CMakeFiles/calculator_core.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/kaio/github/ROS2_summer_school/summer_school_ws/build/calculator && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/kaio/github/ROS2_summer_school/summer_school_ws/src/calculator /home/kaio/github/ROS2_summer_school/summer_school_ws/src/calculator /home/kaio/github/ROS2_summer_school/summer_school_ws/build/calculator /home/kaio/github/ROS2_summer_school/summer_school_ws/build/calculator /home/kaio/github/ROS2_summer_school/summer_school_ws/build/calculator/CMakeFiles/calculator_core.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/calculator_core.dir/depend
 

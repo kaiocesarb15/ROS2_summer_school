@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = -DRCUTILS_ENABLE_FAULT_INJECTION -DROSIDL_TYPESUPPORT_FASTRTPS_CPP_BUILDING_DLL_custon_msg_srv -DROS_PACKAGE_NAME=\"custon_msg_srv\"
 
-CXX_INCLUDES = -I/home/kaio/summer_school_ws/build/custon_msg_srv/rosidl_typesupport_fastrtps_cpp -I/home/kaio/summer_school_ws/build/custon_msg_srv/rosidl_generator_cpp -isystem /opt/ros/humble/include/fastcdr -isystem /opt/ros/humble/include/rmw -isystem /opt/ros/humble/include/rcutils -isystem /opt/ros/humble/include/rosidl_runtime_c -isystem /opt/ros/humble/include/rosidl_typesupport_interface -isystem /opt/ros/humble/include/rosidl_runtime_cpp -isystem /opt/ros/humble/include/rosidl_typesupport_fastrtps_cpp
+CXX_INCLUDES = -I/home/kaio/github/ROS2_summer_school/summer_school_ws/build/custon_msg_srv/rosidl_typesupport_fastrtps_cpp -I/home/kaio/github/ROS2_summer_school/summer_school_ws/build/custon_msg_srv/rosidl_generator_cpp -isystem /opt/ros/humble/include/fastcdr -isystem /opt/ros/humble/include/rmw -isystem /opt/ros/humble/include/rcutils -isystem /opt/ros/humble/include/rosidl_runtime_c -isystem /opt/ros/humble/include/rosidl_typesupport_interface -isystem /opt/ros/humble/include/rosidl_runtime_cpp -isystem /opt/ros/humble/include/rosidl_typesupport_fastrtps_cpp
 
 CXX_FLAGS = -fPIC -Wall -Wextra -Wpedantic -Wredundant-decls
 

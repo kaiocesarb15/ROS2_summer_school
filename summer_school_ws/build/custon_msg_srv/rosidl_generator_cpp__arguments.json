@@ -1,10 +1,10 @@
 {
   "package_name": "custon_msg_srv",
-  "output_dir": "/home/kaio/summer_school_ws/build/custon_msg_srv/rosidl_generator_cpp/custon_msg_srv",
+  "output_dir": "/home/kaio/github/ROS2_summer_school/summer_school_ws/build/custon_msg_srv/rosidl_generator_cpp/custon_msg_srv",
   "template_dir": "/opt/ros/humble/share/rosidl_generator_cpp/cmake/../resource",
   "idl_tuples": [
-    "/home/kaio/summer_school_ws/build/custon_msg_srv/rosidl_adapter/custon_msg_srv:msg/TwoFloat64.idl",
-    "/home/kaio/summer_school_ws/build/custon_msg_srv/rosidl_adapter/custon_msg_srv:srv/Setop.idl"
+    "/home/kaio/github/ROS2_summer_school/summer_school_ws/build/custon_msg_srv/rosidl_adapter/custon_msg_srv:msg/TwoFloat64.idl",
+    "/home/kaio/github/ROS2_summer_school/summer_school_ws/build/custon_msg_srv/rosidl_adapter/custon_msg_srv:srv/Setop.idl"
   ],
   "target_dependencies": [
     "/opt/ros/humble/share/rosidl_generator_cpp/cmake/../../../lib/rosidl_generator_cpp/rosidl_generator_cpp",
@@ -22,7 +22,7 @@
     "/opt/ros/humble/share/rosidl_generator_cpp/cmake/../resource/srv__builder.hpp.em",
     "/opt/ros/humble/share/rosidl_generator_cpp/cmake/../resource/srv__struct.hpp.em",
     "/opt/ros/humble/share/rosidl_generator_cpp/cmake/../resource/srv__traits.hpp.em",
-    "/home/kaio/summer_school_ws/build/custon_msg_srv/rosidl_adapter/custon_msg_srv/msg/TwoFloat64.idl",
-    "/home/kaio/summer_school_ws/build/custon_msg_srv/rosidl_adapter/custon_msg_srv/srv/Setop.idl"
+    "/home/kaio/github/ROS2_summer_school/summer_school_ws/build/custon_msg_srv/rosidl_adapter/custon_msg_srv/msg/TwoFloat64.idl",
+    "/home/kaio/github/ROS2_summer_school/summer_school_ws/build/custon_msg_srv/rosidl_adapter/custon_msg_srv/srv/Setop.idl"
   ]
 }

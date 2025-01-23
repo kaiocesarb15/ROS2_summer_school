@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/kaio/summer_school_ws/src/calculator
+CMAKE_SOURCE_DIR = /home/kaio/github/ROS2_summer_school/summer_school_ws/src/calculator
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/kaio/summer_school_ws/build/calculator
+CMAKE_BINARY_DIR = /home/kaio/github/ROS2_summer_school/summer_school_ws/build/calculator
 
 # Utility rule file for calculator_uninstall.
 
@@ -67,7 +67,7 @@ include CMakeFiles/calculator_uninstall.dir/compiler_depend.make
 include CMakeFiles/calculator_uninstall.dir/progress.make
 
 CMakeFiles/calculator_uninstall:
-	/usr/bin/cmake -P /home/kaio/summer_school_ws/build/calculator/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
+	/usr/bin/cmake -P /home/kaio/github/ROS2_summer_school/summer_school_ws/build/calculator/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
 
 calculator_uninstall: CMakeFiles/calculator_uninstall
 calculator_uninstall: CMakeFiles/calculator_uninstall.dir/build.make
@@ -82,6 +82,6 @@ CMakeFiles/calculator_uninstall.dir/clean:
 .PHONY : CMakeFiles/calculator_uninstall.dir/clean
 
 CMakeFiles/calculator_uninstall.dir/depend:
-	cd /home/kaio/summer_school_ws/build/calculator && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/kaio/summer_school_ws/src/calculator /home/kaio/summer_school_ws/src/calculator /home/kaio/summer_school_ws/build/calculator /home/kaio/summer_school_ws/build/calculator /home/kaio/summer_school_ws/build/calculator/CMakeFiles/calculator_uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/kaio/github/ROS2_summer_school/summer_school_ws/build/calculator && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/kaio/github/ROS2_summer_school/summer_school_ws/src/calculator /home/kaio/github/ROS2_summer_school/summer_school_ws/src/calculator /home/kaio/github/ROS2_summer_school/summer_school_ws/build/calculator /home/kaio/github/ROS2_summer_school/summer_school_ws/build/calculator /home/kaio/github/ROS2_summer_school/summer_school_ws/build/calculator/CMakeFiles/calculator_uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/calculator_uninstall.dir/depend
 

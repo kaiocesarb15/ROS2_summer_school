@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/kaio/summer_school_ws/src/custon_msg_srv
+CMAKE_SOURCE_DIR = /home/kaio/github/ROS2_summer_school/summer_school_ws/src/custom_msg_srv
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/kaio/summer_school_ws/build/custon_msg_srv
+CMAKE_BINARY_DIR = /home/kaio/github/ROS2_summer_school/summer_school_ws/build/custon_msg_srv
 
 # Include any dependencies generated for this target.
 include CMakeFiles/custon_msg_srv__rosidl_generator_py.dir/depend.make
@@ -72,30 +72,30 @@ include CMakeFiles/custon_msg_srv__rosidl_generator_py.dir/flags.make
 CMakeFiles/custon_msg_srv__rosidl_generator_py.dir/rosidl_generator_py/custon_msg_srv/msg/_two_float64_s.c.o: CMakeFiles/custon_msg_srv__rosidl_generator_py.dir/flags.make
 CMakeFiles/custon_msg_srv__rosidl_generator_py.dir/rosidl_generator_py/custon_msg_srv/msg/_two_float64_s.c.o: rosidl_generator_py/custon_msg_srv/msg/_two_float64_s.c
 CMakeFiles/custon_msg_srv__rosidl_generator_py.dir/rosidl_generator_py/custon_msg_srv/msg/_two_float64_s.c.o: CMakeFiles/custon_msg_srv__rosidl_generator_py.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kaio/summer_school_ws/build/custon_msg_srv/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/custon_msg_srv__rosidl_generator_py.dir/rosidl_generator_py/custon_msg_srv/msg/_two_float64_s.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/custon_msg_srv__rosidl_generator_py.dir/rosidl_generator_py/custon_msg_srv/msg/_two_float64_s.c.o -MF CMakeFiles/custon_msg_srv__rosidl_generator_py.dir/rosidl_generator_py/custon_msg_srv/msg/_two_float64_s.c.o.d -o CMakeFiles/custon_msg_srv__rosidl_generator_py.dir/rosidl_generator_py/custon_msg_srv/msg/_two_float64_s.c.o -c /home/kaio/summer_school_ws/build/custon_msg_srv/rosidl_generator_py/custon_msg_srv/msg/_two_float64_s.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kaio/github/ROS2_summer_school/summer_school_ws/build/custon_msg_srv/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/custon_msg_srv__rosidl_generator_py.dir/rosidl_generator_py/custon_msg_srv/msg/_two_float64_s.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/custon_msg_srv__rosidl_generator_py.dir/rosidl_generator_py/custon_msg_srv/msg/_two_float64_s.c.o -MF CMakeFiles/custon_msg_srv__rosidl_generator_py.dir/rosidl_generator_py/custon_msg_srv/msg/_two_float64_s.c.o.d -o CMakeFiles/custon_msg_srv__rosidl_generator_py.dir/rosidl_generator_py/custon_msg_srv/msg/_two_float64_s.c.o -c /home/kaio/github/ROS2_summer_school/summer_school_ws/build/custon_msg_srv/rosidl_generator_py/custon_msg_srv/msg/_two_float64_s.c
 
 CMakeFiles/custon_msg_srv__rosidl_generator_py.dir/rosidl_generator_py/custon_msg_srv/msg/_two_float64_s.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/custon_msg_srv__rosidl_generator_py.dir/rosidl_generator_py/custon_msg_srv/msg/_two_float64_s.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kaio/summer_school_ws/build/custon_msg_srv/rosidl_generator_py/custon_msg_srv/msg/_two_float64_s.c > CMakeFiles/custon_msg_srv__rosidl_generator_py.dir/rosidl_generator_py/custon_msg_srv/msg/_two_float64_s.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kaio/github/ROS2_summer_school/summer_school_ws/build/custon_msg_srv/rosidl_generator_py/custon_msg_srv/msg/_two_float64_s.c > CMakeFiles/custon_msg_srv__rosidl_generator_py.dir/rosidl_generator_py/custon_msg_srv/msg/_two_float64_s.c.i
 
 CMakeFiles/custon_msg_srv__rosidl_generator_py.dir/rosidl_generator_py/custon_msg_srv/msg/_two_float64_s.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/custon_msg_srv__rosidl_generator_py.dir/rosidl_generator_py/custon_msg_srv/msg/_two_float64_s.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kaio/summer_school_ws/build/custon_msg_srv/rosidl_generator_py/custon_msg_srv/msg/_two_float64_s.c -o CMakeFiles/custon_msg_srv__rosidl_generator_py.dir/rosidl_generator_py/custon_msg_srv/msg/_two_float64_s.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kaio/github/ROS2_summer_school/summer_school_ws/build/custon_msg_srv/rosidl_generator_py/custon_msg_srv/msg/_two_float64_s.c -o CMakeFiles/custon_msg_srv__rosidl_generator_py.dir/rosidl_generator_py/custon_msg_srv/msg/_two_float64_s.c.s
 
 CMakeFiles/custon_msg_srv__rosidl_generator_py.dir/rosidl_generator_py/custon_msg_srv/srv/_setop_s.c.o: CMakeFiles/custon_msg_srv__rosidl_generator_py.dir/flags.make
 CMakeFiles/custon_msg_srv__rosidl_generator_py.dir/rosidl_generator_py/custon_msg_srv/srv/_setop_s.c.o: rosidl_generator_py/custon_msg_srv/srv/_setop_s.c
 CMakeFiles/custon_msg_srv__rosidl_generator_py.dir/rosidl_generator_py/custon_msg_srv/srv/_setop_s.c.o: CMakeFiles/custon_msg_srv__rosidl_generator_py.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kaio/summer_school_ws/build/custon_msg_srv/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/custon_msg_srv__rosidl_generator_py.dir/rosidl_generator_py/custon_msg_srv/srv/_setop_s.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/custon_msg_srv__rosidl_generator_py.dir/rosidl_generator_py/custon_msg_srv/srv/_setop_s.c.o -MF CMakeFiles/custon_msg_srv__rosidl_generator_py.dir/rosidl_generator_py/custon_msg_srv/srv/_setop_s.c.o.d -o CMakeFiles/custon_msg_srv__rosidl_generator_py.dir/rosidl_generator_py/custon_msg_srv/srv/_setop_s.c.o -c /home/kaio/summer_school_ws/build/custon_msg_srv/rosidl_generator_py/custon_msg_srv/srv/_setop_s.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kaio/github/ROS2_summer_school/summer_school_ws/build/custon_msg_srv/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/custon_msg_srv__rosidl_generator_py.dir/rosidl_generator_py/custon_msg_srv/srv/_setop_s.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/custon_msg_srv__rosidl_generator_py.dir/rosidl_generator_py/custon_msg_srv/srv/_setop_s.c.o -MF CMakeFiles/custon_msg_srv__rosidl_generator_py.dir/rosidl_generator_py/custon_msg_srv/srv/_setop_s.c.o.d -o CMakeFiles/custon_msg_srv__rosidl_generator_py.dir/rosidl_generator_py/custon_msg_srv/srv/_setop_s.c.o -c /home/kaio/github/ROS2_summer_school/summer_school_ws/build/custon_msg_srv/rosidl_generator_py/custon_msg_srv/srv/_setop_s.c
 
 CMakeFiles/custon_msg_srv__rosidl_generator_py.dir/rosidl_generator_py/custon_msg_srv/srv/_setop_s.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/custon_msg_srv__rosidl_generator_py.dir/rosidl_generator_py/custon_msg_srv/srv/_setop_s.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kaio/summer_school_ws/build/custon_msg_srv/rosidl_generator_py/custon_msg_srv/srv/_setop_s.c > CMakeFiles/custon_msg_srv__rosidl_generator_py.dir/rosidl_generator_py/custon_msg_srv/srv/_setop_s.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kaio/github/ROS2_summer_school/summer_school_ws/build/custon_msg_srv/rosidl_generator_py/custon_msg_srv/srv/_setop_s.c > CMakeFiles/custon_msg_srv__rosidl_generator_py.dir/rosidl_generator_py/custon_msg_srv/srv/_setop_s.c.i
 
 CMakeFiles/custon_msg_srv__rosidl_generator_py.dir/rosidl_generator_py/custon_msg_srv/srv/_setop_s.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/custon_msg_srv__rosidl_generator_py.dir/rosidl_generator_py/custon_msg_srv/srv/_setop_s.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kaio/summer_school_ws/build/custon_msg_srv/rosidl_generator_py/custon_msg_srv/srv/_setop_s.c -o CMakeFiles/custon_msg_srv__rosidl_generator_py.dir/rosidl_generator_py/custon_msg_srv/srv/_setop_s.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kaio/github/ROS2_summer_school/summer_school_ws/build/custon_msg_srv/rosidl_generator_py/custon_msg_srv/srv/_setop_s.c -o CMakeFiles/custon_msg_srv__rosidl_generator_py.dir/rosidl_generator_py/custon_msg_srv/srv/_setop_s.c.s
 
 # Object files for target custon_msg_srv__rosidl_generator_py
 custon_msg_srv__rosidl_generator_py_OBJECTS = \
@@ -114,7 +114,7 @@ rosidl_generator_py/custon_msg_srv/libcuston_msg_srv__rosidl_generator_py.so: li
 rosidl_generator_py/custon_msg_srv/libcuston_msg_srv__rosidl_generator_py.so: /opt/ros/humble/lib/librosidl_runtime_c.so
 rosidl_generator_py/custon_msg_srv/libcuston_msg_srv__rosidl_generator_py.so: /opt/ros/humble/lib/librcutils.so
 rosidl_generator_py/custon_msg_srv/libcuston_msg_srv__rosidl_generator_py.so: CMakeFiles/custon_msg_srv__rosidl_generator_py.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/kaio/summer_school_ws/build/custon_msg_srv/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking C shared library rosidl_generator_py/custon_msg_srv/libcuston_msg_srv__rosidl_generator_py.so"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/kaio/github/ROS2_summer_school/summer_school_ws/build/custon_msg_srv/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking C shared library rosidl_generator_py/custon_msg_srv/libcuston_msg_srv__rosidl_generator_py.so"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/custon_msg_srv__rosidl_generator_py.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -126,6 +126,6 @@ CMakeFiles/custon_msg_srv__rosidl_generator_py.dir/clean:
 .PHONY : CMakeFiles/custon_msg_srv__rosidl_generator_py.dir/clean
 
 CMakeFiles/custon_msg_srv__rosidl_generator_py.dir/depend:
-	cd /home/kaio/summer_school_ws/build/custon_msg_srv && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/kaio/summer_school_ws/src/custon_msg_srv /home/kaio/summer_school_ws/src/custon_msg_srv /home/kaio/summer_school_ws/build/custon_msg_srv /home/kaio/summer_school_ws/build/custon_msg_srv /home/kaio/summer_school_ws/build/custon_msg_srv/CMakeFiles/custon_msg_srv__rosidl_generator_py.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/kaio/github/ROS2_summer_school/summer_school_ws/build/custon_msg_srv && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/kaio/github/ROS2_summer_school/summer_school_ws/src/custom_msg_srv /home/kaio/github/ROS2_summer_school/summer_school_ws/src/custom_msg_srv /home/kaio/github/ROS2_summer_school/summer_school_ws/build/custon_msg_srv /home/kaio/github/ROS2_summer_school/summer_school_ws/build/custon_msg_srv /home/kaio/github/ROS2_summer_school/summer_school_ws/build/custon_msg_srv/CMakeFiles/custon_msg_srv__rosidl_generator_py.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/custon_msg_srv__rosidl_generator_py.dir/depend
 

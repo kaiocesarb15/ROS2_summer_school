@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/kaio/summer_school_ws/src/custon_msg_srv
+CMAKE_SOURCE_DIR = /home/kaio/github/ROS2_summer_school/summer_school_ws/src/custom_msg_srv
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/kaio/summer_school_ws/build/custon_msg_srv
+CMAKE_BINARY_DIR = /home/kaio/github/ROS2_summer_school/summer_school_ws/build/custon_msg_srv
 
 # Utility rule file for custon_msg_srv__cpp.
 
@@ -95,8 +95,8 @@ rosidl_generator_cpp/custon_msg_srv/msg/two_float64.hpp: /opt/ros/humble/share/r
 rosidl_generator_cpp/custon_msg_srv/msg/two_float64.hpp: /opt/ros/humble/share/rosidl_generator_cpp/resource/srv__traits.hpp.em
 rosidl_generator_cpp/custon_msg_srv/msg/two_float64.hpp: rosidl_adapter/custon_msg_srv/msg/TwoFloat64.idl
 rosidl_generator_cpp/custon_msg_srv/msg/two_float64.hpp: rosidl_adapter/custon_msg_srv/srv/Setop.idl
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/kaio/summer_school_ws/build/custon_msg_srv/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C++ code for ROS interfaces"
-	/usr/bin/python3 /opt/ros/humble/share/rosidl_generator_cpp/cmake/../../../lib/rosidl_generator_cpp/rosidl_generator_cpp --generator-arguments-file /home/kaio/summer_school_ws/build/custon_msg_srv/rosidl_generator_cpp__arguments.json
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/kaio/github/ROS2_summer_school/summer_school_ws/build/custon_msg_srv/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C++ code for ROS interfaces"
+	/usr/bin/python3 /opt/ros/humble/share/rosidl_generator_cpp/cmake/../../../lib/rosidl_generator_cpp/rosidl_generator_cpp --generator-arguments-file /home/kaio/github/ROS2_summer_school/summer_school_ws/build/custon_msg_srv/rosidl_generator_cpp__arguments.json
 
 rosidl_generator_cpp/custon_msg_srv/msg/detail/two_float64__builder.hpp: rosidl_generator_cpp/custon_msg_srv/msg/two_float64.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/custon_msg_srv/msg/detail/two_float64__builder.hpp
@@ -148,6 +148,6 @@ CMakeFiles/custon_msg_srv__cpp.dir/clean:
 .PHONY : CMakeFiles/custon_msg_srv__cpp.dir/clean
 
 CMakeFiles/custon_msg_srv__cpp.dir/depend:
-	cd /home/kaio/summer_school_ws/build/custon_msg_srv && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/kaio/summer_school_ws/src/custon_msg_srv /home/kaio/summer_school_ws/src/custon_msg_srv /home/kaio/summer_school_ws/build/custon_msg_srv /home/kaio/summer_school_ws/build/custon_msg_srv /home/kaio/summer_school_ws/build/custon_msg_srv/CMakeFiles/custon_msg_srv__cpp.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/kaio/github/ROS2_summer_school/summer_school_ws/build/custon_msg_srv && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/kaio/github/ROS2_summer_school/summer_school_ws/src/custom_msg_srv /home/kaio/github/ROS2_summer_school/summer_school_ws/src/custom_msg_srv /home/kaio/github/ROS2_summer_school/summer_school_ws/build/custon_msg_srv /home/kaio/github/ROS2_summer_school/summer_school_ws/build/custon_msg_srv /home/kaio/github/ROS2_summer_school/summer_school_ws/build/custon_msg_srv/CMakeFiles/custon_msg_srv__cpp.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/custon_msg_srv__cpp.dir/depend
 

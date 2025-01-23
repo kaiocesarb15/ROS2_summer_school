@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/kaio/summer_school_ws/src/custon_msg_srv
+CMAKE_SOURCE_DIR = /home/kaio/github/ROS2_summer_school/summer_school_ws/src/custom_msg_srv
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/kaio/summer_school_ws/build/custon_msg_srv
+CMAKE_BINARY_DIR = /home/kaio/github/ROS2_summer_school/summer_school_ws/build/custon_msg_srv
 
 # Utility rule file for custon_msg_srv__py.
 
@@ -91,8 +91,8 @@ rosidl_generator_py/custon_msg_srv/_custon_msg_srv_s.ep.rosidl_typesupport_fastr
 rosidl_generator_py/custon_msg_srv/_custon_msg_srv_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/humble/share/rosidl_generator_py/resource/_srv.py.em
 rosidl_generator_py/custon_msg_srv/_custon_msg_srv_s.ep.rosidl_typesupport_fastrtps_c.c: rosidl_adapter/custon_msg_srv/msg/TwoFloat64.idl
 rosidl_generator_py/custon_msg_srv/_custon_msg_srv_s.ep.rosidl_typesupport_fastrtps_c.c: rosidl_adapter/custon_msg_srv/srv/Setop.idl
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/kaio/summer_school_ws/build/custon_msg_srv/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Python code for ROS interfaces"
-	cd /home/kaio/summer_school_ws/build/custon_msg_srv/custon_msg_srv__py && /usr/bin/python3 /opt/ros/humble/share/rosidl_generator_py/cmake/../../../lib/rosidl_generator_py/rosidl_generator_py --generator-arguments-file /home/kaio/summer_school_ws/build/custon_msg_srv/rosidl_generator_py__arguments.json --typesupport-impls "rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c;rosidl_typesupport_c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/kaio/github/ROS2_summer_school/summer_school_ws/build/custon_msg_srv/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Python code for ROS interfaces"
+	cd /home/kaio/github/ROS2_summer_school/summer_school_ws/build/custon_msg_srv/custon_msg_srv__py && /usr/bin/python3 /opt/ros/humble/share/rosidl_generator_py/cmake/../../../lib/rosidl_generator_py/rosidl_generator_py --generator-arguments-file /home/kaio/github/ROS2_summer_school/summer_school_ws/build/custon_msg_srv/rosidl_generator_py__arguments.json --typesupport-impls "rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c;rosidl_typesupport_c"
 
 rosidl_generator_py/custon_msg_srv/_custon_msg_srv_s.ep.rosidl_typesupport_introspection_c.c: rosidl_generator_py/custon_msg_srv/_custon_msg_srv_s.ep.rosidl_typesupport_fastrtps_c.c
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/custon_msg_srv/_custon_msg_srv_s.ep.rosidl_typesupport_introspection_c.c
@@ -136,10 +136,10 @@ custon_msg_srv__py/CMakeFiles/custon_msg_srv__py.dir/build: custon_msg_srv__py
 .PHONY : custon_msg_srv__py/CMakeFiles/custon_msg_srv__py.dir/build
 
 custon_msg_srv__py/CMakeFiles/custon_msg_srv__py.dir/clean:
-	cd /home/kaio/summer_school_ws/build/custon_msg_srv/custon_msg_srv__py && $(CMAKE_COMMAND) -P CMakeFiles/custon_msg_srv__py.dir/cmake_clean.cmake
+	cd /home/kaio/github/ROS2_summer_school/summer_school_ws/build/custon_msg_srv/custon_msg_srv__py && $(CMAKE_COMMAND) -P CMakeFiles/custon_msg_srv__py.dir/cmake_clean.cmake
 .PHONY : custon_msg_srv__py/CMakeFiles/custon_msg_srv__py.dir/clean
 
 custon_msg_srv__py/CMakeFiles/custon_msg_srv__py.dir/depend:
-	cd /home/kaio/summer_school_ws/build/custon_msg_srv && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/kaio/summer_school_ws/src/custon_msg_srv /home/kaio/summer_school_ws/build/custon_msg_srv/custon_msg_srv__py /home/kaio/summer_school_ws/build/custon_msg_srv /home/kaio/summer_school_ws/build/custon_msg_srv/custon_msg_srv__py /home/kaio/summer_school_ws/build/custon_msg_srv/custon_msg_srv__py/CMakeFiles/custon_msg_srv__py.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/kaio/github/ROS2_summer_school/summer_school_ws/build/custon_msg_srv && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/kaio/github/ROS2_summer_school/summer_school_ws/src/custom_msg_srv /home/kaio/github/ROS2_summer_school/summer_school_ws/build/custon_msg_srv/custon_msg_srv__py /home/kaio/github/ROS2_summer_school/summer_school_ws/build/custon_msg_srv /home/kaio/github/ROS2_summer_school/summer_school_ws/build/custon_msg_srv/custon_msg_srv__py /home/kaio/github/ROS2_summer_school/summer_school_ws/build/custon_msg_srv/custon_msg_srv__py/CMakeFiles/custon_msg_srv__py.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : custon_msg_srv__py/CMakeFiles/custon_msg_srv__py.dir/depend
 

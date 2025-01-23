@@ -1,8 +1,8 @@
-# Install script for directory: /home/kaio/summer_school_ws/src/calculator
+# Install script for directory: /home/kaio/github/ROS2_summer_school/summer_school_ws/src/calculator
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/kaio/summer_school_ws/install/calculator")
+  set(CMAKE_INSTALL_PREFIX "/home/kaio/github/ROS2_summer_school/summer_school_ws/install/calculator")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -49,12 +49,12 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libcalculator_core.so"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/kaio/summer_school_ws/build/calculator/libcalculator_core.so")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/kaio/github/ROS2_summer_school/summer_school_ws/build/calculator/libcalculator_core.so")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libcalculator_core.so" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libcalculator_core.so")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libcalculator_core.so"
-         OLD_RPATH "/opt/ros/humble/lib:/home/kaio/summer_school_ws/install/custon_msg_srv/lib:"
+         OLD_RPATH "/opt/ros/humble/lib:/home/kaio/github/ROS2_summer_school/summer_school_ws/install/custon_msg_srv/lib:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libcalculator_core.so")
@@ -72,12 +72,12 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/calculator/calculator_node"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/calculator" TYPE EXECUTABLE FILES "/home/kaio/summer_school_ws/build/calculator/calculator_node")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/calculator" TYPE EXECUTABLE FILES "/home/kaio/github/ROS2_summer_school/summer_school_ws/build/calculator/calculator_node")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/calculator/calculator_node" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/calculator/calculator_node")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/calculator/calculator_node"
-         OLD_RPATH "/home/kaio/summer_school_ws/build/calculator:/opt/ros/humble/lib:/home/kaio/summer_school_ws/install/custon_msg_srv/lib:"
+         OLD_RPATH "/home/kaio/github/ROS2_summer_school/summer_school_ws/build/calculator:/opt/ros/humble/lib:/home/kaio/github/ROS2_summer_school/summer_school_ws/install/custon_msg_srv/lib:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/calculator/calculator_node")
@@ -86,22 +86,22 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/" TYPE DIRECTORY FILES "/home/kaio/summer_school_ws/src/calculator/include/")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/" TYPE DIRECTORY FILES "/home/kaio/github/ROS2_summer_school/summer_school_ws/src/calculator/include/")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/calculator" TYPE DIRECTORY FILES
-    "/home/kaio/summer_school_ws/src/calculator/launch"
-    "/home/kaio/summer_school_ws/src/calculator/param"
+    "/home/kaio/github/ROS2_summer_school/summer_school_ws/src/calculator/launch"
+    "/home/kaio/github/ROS2_summer_school/summer_school_ws/src/calculator/params"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/package_run_dependencies" TYPE FILE FILES "/home/kaio/summer_school_ws/build/calculator/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/calculator")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/package_run_dependencies" TYPE FILE FILES "/home/kaio/github/ROS2_summer_school/summer_school_ws/build/calculator/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/calculator")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/parent_prefix_path" TYPE FILE FILES "/home/kaio/summer_school_ws/build/calculator/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/calculator")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/parent_prefix_path" TYPE FILE FILES "/home/kaio/github/ROS2_summer_school/summer_school_ws/build/calculator/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/calculator")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -109,7 +109,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/calculator/environment" TYPE FILE FILES "/home/kaio/summer_school_ws/build/calculator/ament_cmake_environment_hooks/ament_prefix_path.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/calculator/environment" TYPE FILE FILES "/home/kaio/github/ROS2_summer_school/summer_school_ws/build/calculator/ament_cmake_environment_hooks/ament_prefix_path.dsv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -117,54 +117,54 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/calculator/environment" TYPE FILE FILES "/home/kaio/summer_school_ws/build/calculator/ament_cmake_environment_hooks/path.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/calculator/environment" TYPE FILE FILES "/home/kaio/github/ROS2_summer_school/summer_school_ws/build/calculator/ament_cmake_environment_hooks/path.dsv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/calculator" TYPE FILE FILES "/home/kaio/summer_school_ws/build/calculator/ament_cmake_environment_hooks/local_setup.bash")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/calculator" TYPE FILE FILES "/home/kaio/github/ROS2_summer_school/summer_school_ws/build/calculator/ament_cmake_environment_hooks/local_setup.bash")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/calculator" TYPE FILE FILES "/home/kaio/summer_school_ws/build/calculator/ament_cmake_environment_hooks/local_setup.sh")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/calculator" TYPE FILE FILES "/home/kaio/github/ROS2_summer_school/summer_school_ws/build/calculator/ament_cmake_environment_hooks/local_setup.sh")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/calculator" TYPE FILE FILES "/home/kaio/summer_school_ws/build/calculator/ament_cmake_environment_hooks/local_setup.zsh")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/calculator" TYPE FILE FILES "/home/kaio/github/ROS2_summer_school/summer_school_ws/build/calculator/ament_cmake_environment_hooks/local_setup.zsh")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/calculator" TYPE FILE FILES "/home/kaio/summer_school_ws/build/calculator/ament_cmake_environment_hooks/local_setup.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/calculator" TYPE FILE FILES "/home/kaio/github/ROS2_summer_school/summer_school_ws/build/calculator/ament_cmake_environment_hooks/local_setup.dsv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/calculator" TYPE FILE FILES "/home/kaio/summer_school_ws/build/calculator/ament_cmake_environment_hooks/package.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/calculator" TYPE FILE FILES "/home/kaio/github/ROS2_summer_school/summer_school_ws/build/calculator/ament_cmake_environment_hooks/package.dsv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/packages" TYPE FILE FILES "/home/kaio/summer_school_ws/build/calculator/ament_cmake_index/share/ament_index/resource_index/packages/calculator")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/packages" TYPE FILE FILES "/home/kaio/github/ROS2_summer_school/summer_school_ws/build/calculator/ament_cmake_index/share/ament_index/resource_index/packages/calculator")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/rclcpp_components" TYPE FILE FILES "/home/kaio/summer_school_ws/build/calculator/ament_cmake_index/share/ament_index/resource_index/rclcpp_components/calculator")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/rclcpp_components" TYPE FILE FILES "/home/kaio/github/ROS2_summer_school/summer_school_ws/build/calculator/ament_cmake_index/share/ament_index/resource_index/rclcpp_components/calculator")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/calculator/cmake" TYPE FILE FILES "/home/kaio/summer_school_ws/build/calculator/ament_cmake_export_include_directories/ament_cmake_export_include_directories-extras.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/calculator/cmake" TYPE FILE FILES "/home/kaio/github/ROS2_summer_school/summer_school_ws/build/calculator/ament_cmake_export_include_directories/ament_cmake_export_include_directories-extras.cmake")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/calculator/cmake" TYPE FILE FILES "/home/kaio/summer_school_ws/build/calculator/ament_cmake_export_dependencies/ament_cmake_export_dependencies-extras.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/calculator/cmake" TYPE FILE FILES "/home/kaio/github/ROS2_summer_school/summer_school_ws/build/calculator/ament_cmake_export_dependencies/ament_cmake_export_dependencies-extras.cmake")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/calculator/cmake" TYPE FILE FILES
-    "/home/kaio/summer_school_ws/build/calculator/ament_cmake_core/calculatorConfig.cmake"
-    "/home/kaio/summer_school_ws/build/calculator/ament_cmake_core/calculatorConfig-version.cmake"
+    "/home/kaio/github/ROS2_summer_school/summer_school_ws/build/calculator/ament_cmake_core/calculatorConfig.cmake"
+    "/home/kaio/github/ROS2_summer_school/summer_school_ws/build/calculator/ament_cmake_core/calculatorConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/calculator" TYPE FILE FILES "/home/kaio/summer_school_ws/src/calculator/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/calculator" TYPE FILE FILES "/home/kaio/github/ROS2_summer_school/summer_school_ws/src/calculator/package.xml")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)
@@ -175,5 +175,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/kaio/summer_school_ws/build/calculator/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/kaio/github/ROS2_summer_school/summer_school_ws/build/calculator/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

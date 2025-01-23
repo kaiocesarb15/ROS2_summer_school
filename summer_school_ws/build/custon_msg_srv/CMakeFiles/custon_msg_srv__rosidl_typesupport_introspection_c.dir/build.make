@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/kaio/summer_school_ws/src/custon_msg_srv
+CMAKE_SOURCE_DIR = /home/kaio/github/ROS2_summer_school/summer_school_ws/src/custom_msg_srv
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/kaio/summer_school_ws/build/custon_msg_srv
+CMAKE_BINARY_DIR = /home/kaio/github/ROS2_summer_school/summer_school_ws/build/custon_msg_srv
 
 # Include any dependencies generated for this target.
 include CMakeFiles/custon_msg_srv__rosidl_typesupport_introspection_c.dir/depend.make
@@ -79,8 +79,8 @@ rosidl_typesupport_introspection_c/custon_msg_srv/msg/detail/two_float64__rosidl
 rosidl_typesupport_introspection_c/custon_msg_srv/msg/detail/two_float64__rosidl_typesupport_introspection_c.h: /opt/ros/humble/share/rosidl_typesupport_introspection_c/resource/srv__type_support.c.em
 rosidl_typesupport_introspection_c/custon_msg_srv/msg/detail/two_float64__rosidl_typesupport_introspection_c.h: rosidl_adapter/custon_msg_srv/msg/TwoFloat64.idl
 rosidl_typesupport_introspection_c/custon_msg_srv/msg/detail/two_float64__rosidl_typesupport_introspection_c.h: rosidl_adapter/custon_msg_srv/srv/Setop.idl
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/kaio/summer_school_ws/build/custon_msg_srv/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C introspection for ROS interfaces"
-	/usr/bin/python3 /opt/ros/humble/lib/rosidl_typesupport_introspection_c/rosidl_typesupport_introspection_c --generator-arguments-file /home/kaio/summer_school_ws/build/custon_msg_srv/rosidl_typesupport_introspection_c__arguments.json
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/kaio/github/ROS2_summer_school/summer_school_ws/build/custon_msg_srv/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C introspection for ROS interfaces"
+	/usr/bin/python3 /opt/ros/humble/lib/rosidl_typesupport_introspection_c/rosidl_typesupport_introspection_c --generator-arguments-file /home/kaio/github/ROS2_summer_school/summer_school_ws/build/custon_msg_srv/rosidl_typesupport_introspection_c__arguments.json
 
 rosidl_typesupport_introspection_c/custon_msg_srv/srv/detail/setop__rosidl_typesupport_introspection_c.h: rosidl_typesupport_introspection_c/custon_msg_srv/msg/detail/two_float64__rosidl_typesupport_introspection_c.h
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_introspection_c/custon_msg_srv/srv/detail/setop__rosidl_typesupport_introspection_c.h
@@ -94,30 +94,30 @@ rosidl_typesupport_introspection_c/custon_msg_srv/srv/detail/setop__type_support
 CMakeFiles/custon_msg_srv__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/custon_msg_srv/msg/detail/two_float64__type_support.c.o: CMakeFiles/custon_msg_srv__rosidl_typesupport_introspection_c.dir/flags.make
 CMakeFiles/custon_msg_srv__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/custon_msg_srv/msg/detail/two_float64__type_support.c.o: rosidl_typesupport_introspection_c/custon_msg_srv/msg/detail/two_float64__type_support.c
 CMakeFiles/custon_msg_srv__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/custon_msg_srv/msg/detail/two_float64__type_support.c.o: CMakeFiles/custon_msg_srv__rosidl_typesupport_introspection_c.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kaio/summer_school_ws/build/custon_msg_srv/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/custon_msg_srv__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/custon_msg_srv/msg/detail/two_float64__type_support.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/custon_msg_srv__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/custon_msg_srv/msg/detail/two_float64__type_support.c.o -MF CMakeFiles/custon_msg_srv__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/custon_msg_srv/msg/detail/two_float64__type_support.c.o.d -o CMakeFiles/custon_msg_srv__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/custon_msg_srv/msg/detail/two_float64__type_support.c.o -c /home/kaio/summer_school_ws/build/custon_msg_srv/rosidl_typesupport_introspection_c/custon_msg_srv/msg/detail/two_float64__type_support.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kaio/github/ROS2_summer_school/summer_school_ws/build/custon_msg_srv/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/custon_msg_srv__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/custon_msg_srv/msg/detail/two_float64__type_support.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/custon_msg_srv__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/custon_msg_srv/msg/detail/two_float64__type_support.c.o -MF CMakeFiles/custon_msg_srv__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/custon_msg_srv/msg/detail/two_float64__type_support.c.o.d -o CMakeFiles/custon_msg_srv__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/custon_msg_srv/msg/detail/two_float64__type_support.c.o -c /home/kaio/github/ROS2_summer_school/summer_school_ws/build/custon_msg_srv/rosidl_typesupport_introspection_c/custon_msg_srv/msg/detail/two_float64__type_support.c
 
 CMakeFiles/custon_msg_srv__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/custon_msg_srv/msg/detail/two_float64__type_support.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/custon_msg_srv__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/custon_msg_srv/msg/detail/two_float64__type_support.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kaio/summer_school_ws/build/custon_msg_srv/rosidl_typesupport_introspection_c/custon_msg_srv/msg/detail/two_float64__type_support.c > CMakeFiles/custon_msg_srv__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/custon_msg_srv/msg/detail/two_float64__type_support.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kaio/github/ROS2_summer_school/summer_school_ws/build/custon_msg_srv/rosidl_typesupport_introspection_c/custon_msg_srv/msg/detail/two_float64__type_support.c > CMakeFiles/custon_msg_srv__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/custon_msg_srv/msg/detail/two_float64__type_support.c.i
 
 CMakeFiles/custon_msg_srv__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/custon_msg_srv/msg/detail/two_float64__type_support.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/custon_msg_srv__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/custon_msg_srv/msg/detail/two_float64__type_support.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kaio/summer_school_ws/build/custon_msg_srv/rosidl_typesupport_introspection_c/custon_msg_srv/msg/detail/two_float64__type_support.c -o CMakeFiles/custon_msg_srv__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/custon_msg_srv/msg/detail/two_float64__type_support.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kaio/github/ROS2_summer_school/summer_school_ws/build/custon_msg_srv/rosidl_typesupport_introspection_c/custon_msg_srv/msg/detail/two_float64__type_support.c -o CMakeFiles/custon_msg_srv__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/custon_msg_srv/msg/detail/two_float64__type_support.c.s
 
 CMakeFiles/custon_msg_srv__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/custon_msg_srv/srv/detail/setop__type_support.c.o: CMakeFiles/custon_msg_srv__rosidl_typesupport_introspection_c.dir/flags.make
 CMakeFiles/custon_msg_srv__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/custon_msg_srv/srv/detail/setop__type_support.c.o: rosidl_typesupport_introspection_c/custon_msg_srv/srv/detail/setop__type_support.c
 CMakeFiles/custon_msg_srv__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/custon_msg_srv/srv/detail/setop__type_support.c.o: CMakeFiles/custon_msg_srv__rosidl_typesupport_introspection_c.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kaio/summer_school_ws/build/custon_msg_srv/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/custon_msg_srv__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/custon_msg_srv/srv/detail/setop__type_support.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/custon_msg_srv__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/custon_msg_srv/srv/detail/setop__type_support.c.o -MF CMakeFiles/custon_msg_srv__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/custon_msg_srv/srv/detail/setop__type_support.c.o.d -o CMakeFiles/custon_msg_srv__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/custon_msg_srv/srv/detail/setop__type_support.c.o -c /home/kaio/summer_school_ws/build/custon_msg_srv/rosidl_typesupport_introspection_c/custon_msg_srv/srv/detail/setop__type_support.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kaio/github/ROS2_summer_school/summer_school_ws/build/custon_msg_srv/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/custon_msg_srv__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/custon_msg_srv/srv/detail/setop__type_support.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/custon_msg_srv__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/custon_msg_srv/srv/detail/setop__type_support.c.o -MF CMakeFiles/custon_msg_srv__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/custon_msg_srv/srv/detail/setop__type_support.c.o.d -o CMakeFiles/custon_msg_srv__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/custon_msg_srv/srv/detail/setop__type_support.c.o -c /home/kaio/github/ROS2_summer_school/summer_school_ws/build/custon_msg_srv/rosidl_typesupport_introspection_c/custon_msg_srv/srv/detail/setop__type_support.c
 
 CMakeFiles/custon_msg_srv__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/custon_msg_srv/srv/detail/setop__type_support.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/custon_msg_srv__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/custon_msg_srv/srv/detail/setop__type_support.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kaio/summer_school_ws/build/custon_msg_srv/rosidl_typesupport_introspection_c/custon_msg_srv/srv/detail/setop__type_support.c > CMakeFiles/custon_msg_srv__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/custon_msg_srv/srv/detail/setop__type_support.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kaio/github/ROS2_summer_school/summer_school_ws/build/custon_msg_srv/rosidl_typesupport_introspection_c/custon_msg_srv/srv/detail/setop__type_support.c > CMakeFiles/custon_msg_srv__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/custon_msg_srv/srv/detail/setop__type_support.c.i
 
 CMakeFiles/custon_msg_srv__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/custon_msg_srv/srv/detail/setop__type_support.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/custon_msg_srv__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/custon_msg_srv/srv/detail/setop__type_support.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kaio/summer_school_ws/build/custon_msg_srv/rosidl_typesupport_introspection_c/custon_msg_srv/srv/detail/setop__type_support.c -o CMakeFiles/custon_msg_srv__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/custon_msg_srv/srv/detail/setop__type_support.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kaio/github/ROS2_summer_school/summer_school_ws/build/custon_msg_srv/rosidl_typesupport_introspection_c/custon_msg_srv/srv/detail/setop__type_support.c -o CMakeFiles/custon_msg_srv__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/custon_msg_srv/srv/detail/setop__type_support.c.s
 
 # Object files for target custon_msg_srv__rosidl_typesupport_introspection_c
 custon_msg_srv__rosidl_typesupport_introspection_c_OBJECTS = \
@@ -135,7 +135,7 @@ libcuston_msg_srv__rosidl_typesupport_introspection_c.so: /opt/ros/humble/lib/li
 libcuston_msg_srv__rosidl_typesupport_introspection_c.so: /opt/ros/humble/lib/librosidl_runtime_c.so
 libcuston_msg_srv__rosidl_typesupport_introspection_c.so: /opt/ros/humble/lib/librcutils.so
 libcuston_msg_srv__rosidl_typesupport_introspection_c.so: CMakeFiles/custon_msg_srv__rosidl_typesupport_introspection_c.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/kaio/summer_school_ws/build/custon_msg_srv/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking C shared library libcuston_msg_srv__rosidl_typesupport_introspection_c.so"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/kaio/github/ROS2_summer_school/summer_school_ws/build/custon_msg_srv/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking C shared library libcuston_msg_srv__rosidl_typesupport_introspection_c.so"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/custon_msg_srv__rosidl_typesupport_introspection_c.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -150,6 +150,6 @@ CMakeFiles/custon_msg_srv__rosidl_typesupport_introspection_c.dir/depend: rosidl
 CMakeFiles/custon_msg_srv__rosidl_typesupport_introspection_c.dir/depend: rosidl_typesupport_introspection_c/custon_msg_srv/msg/detail/two_float64__type_support.c
 CMakeFiles/custon_msg_srv__rosidl_typesupport_introspection_c.dir/depend: rosidl_typesupport_introspection_c/custon_msg_srv/srv/detail/setop__rosidl_typesupport_introspection_c.h
 CMakeFiles/custon_msg_srv__rosidl_typesupport_introspection_c.dir/depend: rosidl_typesupport_introspection_c/custon_msg_srv/srv/detail/setop__type_support.c
-	cd /home/kaio/summer_school_ws/build/custon_msg_srv && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/kaio/summer_school_ws/src/custon_msg_srv /home/kaio/summer_school_ws/src/custon_msg_srv /home/kaio/summer_school_ws/build/custon_msg_srv /home/kaio/summer_school_ws/build/custon_msg_srv /home/kaio/summer_school_ws/build/custon_msg_srv/CMakeFiles/custon_msg_srv__rosidl_typesupport_introspection_c.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/kaio/github/ROS2_summer_school/summer_school_ws/build/custon_msg_srv && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/kaio/github/ROS2_summer_school/summer_school_ws/src/custom_msg_srv /home/kaio/github/ROS2_summer_school/summer_school_ws/src/custom_msg_srv /home/kaio/github/ROS2_summer_school/summer_school_ws/build/custon_msg_srv /home/kaio/github/ROS2_summer_school/summer_school_ws/build/custon_msg_srv /home/kaio/github/ROS2_summer_school/summer_school_ws/build/custon_msg_srv/CMakeFiles/custon_msg_srv__rosidl_typesupport_introspection_c.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/custon_msg_srv__rosidl_typesupport_introspection_c.dir/depend
 

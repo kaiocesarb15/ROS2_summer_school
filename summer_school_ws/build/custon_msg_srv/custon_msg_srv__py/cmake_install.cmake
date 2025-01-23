@@ -1,8 +1,8 @@
-# Install script for directory: /home/kaio/summer_school_ws/build/custon_msg_srv/custon_msg_srv__py
+# Install script for directory: /home/kaio/github/ROS2_summer_school/summer_school_ws/build/custon_msg_srv/custon_msg_srv__py
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/kaio/summer_school_ws/install/custon_msg_srv")
+  set(CMAKE_INSTALL_PREFIX "/home/kaio/github/ROS2_summer_school/summer_school_ws/install/custon_msg_srv")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 

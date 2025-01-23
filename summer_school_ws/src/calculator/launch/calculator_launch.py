@@ -24,7 +24,7 @@ def generate_launch_description():
         DeclareLaunchArgument(
             'constants_file',
             default_value=PathJoinSubstitution([FindPackageShare('calculator'),
-                                                'param', 'constants.yaml']),
+                                                'params', 'constants.yaml']),
             description='Full path to the file with the all parameters.'
         )
     )

@@ -77,7 +77,7 @@ install(DIRECTORY include/
 
 install(DIRECTORY 
   launch
-  param
+  params
   DESTINATION share/${PROJECT_NAME}
 )
 

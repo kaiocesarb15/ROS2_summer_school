@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/kaio/summer_school_ws/src/custon_msg_srv
+CMAKE_SOURCE_DIR = /home/kaio/github/ROS2_summer_school/summer_school_ws/src/custom_msg_srv
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/kaio/summer_school_ws/build/custon_msg_srv
+CMAKE_BINARY_DIR = /home/kaio/github/ROS2_summer_school/summer_school_ws/build/custon_msg_srv
 
 # Utility rule file for ament_cmake_python_build_custon_msg_srv_egg.
 
@@ -67,7 +67,7 @@ include CMakeFiles/ament_cmake_python_build_custon_msg_srv_egg.dir/compiler_depe
 include CMakeFiles/ament_cmake_python_build_custon_msg_srv_egg.dir/progress.make
 
 CMakeFiles/ament_cmake_python_build_custon_msg_srv_egg:
-	cd /home/kaio/summer_school_ws/build/custon_msg_srv/ament_cmake_python/custon_msg_srv && /usr/bin/python3 setup.py egg_info
+	cd /home/kaio/github/ROS2_summer_school/summer_school_ws/build/custon_msg_srv/ament_cmake_python/custon_msg_srv && /usr/bin/python3 setup.py egg_info
 
 ament_cmake_python_build_custon_msg_srv_egg: CMakeFiles/ament_cmake_python_build_custon_msg_srv_egg
 ament_cmake_python_build_custon_msg_srv_egg: CMakeFiles/ament_cmake_python_build_custon_msg_srv_egg.dir/build.make
@@ -82,6 +82,6 @@ CMakeFiles/ament_cmake_python_build_custon_msg_srv_egg.dir/clean:
 .PHONY : CMakeFiles/ament_cmake_python_build_custon_msg_srv_egg.dir/clean
 
 CMakeFiles/ament_cmake_python_build_custon_msg_srv_egg.dir/depend:
-	cd /home/kaio/summer_school_ws/build/custon_msg_srv && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/kaio/summer_school_ws/src/custon_msg_srv /home/kaio/summer_school_ws/src/custon_msg_srv /home/kaio/summer_school_ws/build/custon_msg_srv /home/kaio/summer_school_ws/build/custon_msg_srv /home/kaio/summer_school_ws/build/custon_msg_srv/CMakeFiles/ament_cmake_python_build_custon_msg_srv_egg.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/kaio/github/ROS2_summer_school/summer_school_ws/build/custon_msg_srv && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/kaio/github/ROS2_summer_school/summer_school_ws/src/custom_msg_srv /home/kaio/github/ROS2_summer_school/summer_school_ws/src/custom_msg_srv /home/kaio/github/ROS2_summer_school/summer_school_ws/build/custon_msg_srv /home/kaio/github/ROS2_summer_school/summer_school_ws/build/custon_msg_srv /home/kaio/github/ROS2_summer_school/summer_school_ws/build/custon_msg_srv/CMakeFiles/ament_cmake_python_build_custon_msg_srv_egg.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/ament_cmake_python_build_custon_msg_srv_egg.dir/depend
 

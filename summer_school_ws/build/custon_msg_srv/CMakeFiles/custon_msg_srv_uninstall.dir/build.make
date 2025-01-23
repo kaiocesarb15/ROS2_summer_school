@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/kaio/summer_school_ws/src/custon_msg_srv
+CMAKE_SOURCE_DIR = /home/kaio/github/ROS2_summer_school/summer_school_ws/src/custom_msg_srv
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/kaio/summer_school_ws/build/custon_msg_srv
+CMAKE_BINARY_DIR = /home/kaio/github/ROS2_summer_school/summer_school_ws/build/custon_msg_srv
 
 # Utility rule file for custon_msg_srv_uninstall.
 
@@ -67,7 +67,7 @@ include CMakeFiles/custon_msg_srv_uninstall.dir/compiler_depend.make
 include CMakeFiles/custon_msg_srv_uninstall.dir/progress.make
 
 CMakeFiles/custon_msg_srv_uninstall:
-	/usr/bin/cmake -P /home/kaio/summer_school_ws/build/custon_msg_srv/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
+	/usr/bin/cmake -P /home/kaio/github/ROS2_summer_school/summer_school_ws/build/custon_msg_srv/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
 
 custon_msg_srv_uninstall: CMakeFiles/custon_msg_srv_uninstall
 custon_msg_srv_uninstall: CMakeFiles/custon_msg_srv_uninstall.dir/build.make
@@ -82,6 +82,6 @@ CMakeFiles/custon_msg_srv_uninstall.dir/clean:
 .PHONY : CMakeFiles/custon_msg_srv_uninstall.dir/clean
 
 CMakeFiles/custon_msg_srv_uninstall.dir/depend:
-	cd /home/kaio/summer_school_ws/build/custon_msg_srv && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/kaio/summer_school_ws/src/custon_msg_srv /home/kaio/summer_school_ws/src/custon_msg_srv /home/kaio/summer_school_ws/build/custon_msg_srv /home/kaio/summer_school_ws/build/custon_msg_srv /home/kaio/summer_school_ws/build/custon_msg_srv/CMakeFiles/custon_msg_srv_uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/kaio/github/ROS2_summer_school/summer_school_ws/build/custon_msg_srv && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/kaio/github/ROS2_summer_school/summer_school_ws/src/custom_msg_srv /home/kaio/github/ROS2_summer_school/summer_school_ws/src/custom_msg_srv /home/kaio/github/ROS2_summer_school/summer_school_ws/build/custon_msg_srv /home/kaio/github/ROS2_summer_school/summer_school_ws/build/custon_msg_srv /home/kaio/github/ROS2_summer_school/summer_school_ws/build/custon_msg_srv/CMakeFiles/custon_msg_srv_uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/custon_msg_srv_uninstall.dir/depend
 
