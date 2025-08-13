@@ -1,7 +1,0 @@
-{
-  "package_name": "custon_msg_srv",
-  "non_idl_tuples": [
-    "/home/kaio/github/ROS2_summer_school/summer_school_ws/src/custom_msg_srv:msg/TwoFloat64.msg",
-    "/home/kaio/github/ROS2_summer_school/summer_school_ws/src/custom_msg_srv:srv/Setop.srv"
-  ]
-}

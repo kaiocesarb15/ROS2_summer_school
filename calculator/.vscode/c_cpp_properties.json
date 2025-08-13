@@ -1,0 +1,23 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "${default}",
+        "limitSymbolsToIncludedHeaders": false
+      },
+      "includePath": [
+        "/home/kaio/github/ROS2_summer_school/summer_school_ws/install/calculator/include/**",
+        "/home/kaio/github/ROS2_summer_school/summer_school_ws/install/custon_msg_srv/include/**",
+        "/opt/ros/humble/include/**",
+        "/home/kaio/github/ROS2_summer_school/summer_school_ws/src/calculator/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS",
+      "intelliSenseMode": "gcc-x64",
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "gnu11",
+      "cppStandard": "c++14"
+    }
+  ],
+  "version": 4
+}

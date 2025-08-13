@@ -1,4 +1,0 @@
-calculator_node:
-  ros__parameters:
-    rate:  # [Hz]
-      pub_calculator_result: 10.0

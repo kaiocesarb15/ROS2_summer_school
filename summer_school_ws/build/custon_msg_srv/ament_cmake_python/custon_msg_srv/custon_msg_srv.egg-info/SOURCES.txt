@@ -1,6 +1,0 @@
-setup.py
-custon_msg_srv/__init__.py
-custon_msg_srv.egg-info/PKG-INFO
-custon_msg_srv.egg-info/SOURCES.txt
-custon_msg_srv.egg-info/dependency_links.txt
-custon_msg_srv.egg-info/top_level.txt
